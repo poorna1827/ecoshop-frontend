@@ -1,0 +1,12 @@
+namespace: dev
+
+replicaCount: 3
+appName: react
+containerName: react
+
+serviceName: react-service
+serviceType: LoadBalancer
+
+image:
+  name: azuresolutionregistry.azurecr.io/ecommerce
+  tag: {{tag}}
